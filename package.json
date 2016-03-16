@@ -1,6 +1,6 @@
 {
   "name": "create-stylesheet",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Dynamically create a stylesheet",
   "main": "index.js",
   "scripts": {
