@@ -1,6 +1,6 @@
 {
   "name": "create-stylesheet",
-  "version": "0.3.0",
+  "version": "0.2.0",
   "description": "Dynamically create a stylesheet",
   "main": "index.js",
   "scripts": {
@@ -37,3 +37,4 @@
     "webpack": "^1.12.14"
   }
 }
+
