@@ -21,7 +21,7 @@ function processDeclarationBlock(block) {
 }
 
 function processDeclaration(prop, value) {
-  if (!isNaN(value) && value != 0) {
+  if (!isNaN(value)) {
     value = value + 'px';
   }
 
