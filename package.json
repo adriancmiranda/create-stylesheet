@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mzabriskie/create-styleshet.git"
+    "url": "git+https://github.com/mzabriskie/create-stylesheet.git"
   },
   "keywords": [
     "css",
@@ -18,9 +18,9 @@
   "author": "Matt Zabriskie",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mzabriskie/create-styleshet/issues"
+    "url": "https://github.com/mzabriskie/create-stylesheet/issues"
   },
-  "homepage": "https://github.com/mzabriskie/create-styleshet#readme",
+  "homepage": "https://github.com/mzabriskie/create-stylesheet#readme",
   "devDependencies": {
     "babel-cli": "^6.6.5",
     "babel-core": "^6.7.2",
@@ -37,3 +37,4 @@
     "webpack": "^1.12.14"
   }
 }
+
