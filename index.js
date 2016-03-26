@@ -1,6 +1,6 @@
 module.exports = function createStyleSheet(blocks) {
-  let style = document.createElement('style');
-  let text = Object.keys(blocks).map(function (selector) {
+  var style = document.createElement('style');
+  var text = Object.keys(blocks).map(function (selector) {
     return processRuleSet(selector, blocks[selector]);
   }).join('\n');
   
