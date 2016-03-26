@@ -1,4 +1,4 @@
-# create-stylesheet
+# create-stylesheet [![build status](https://img.shields.io/travis/mzabriskie/create-stylesheet.svg?style=flat-square)](https://travis-ci.org/mzabriskie/create-stylesheet)
 
 Dynamically create a stylesheet
 
