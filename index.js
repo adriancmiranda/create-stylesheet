@@ -20,12 +20,15 @@ function processDeclarationBlock(block) {
   }).join('\n');
 }
 
+var reOnlySpaces = /^\s?$/;
 function processDeclaration(prop, value) {
   if (!isNaN(value) && value != 0) {
     value = value + 'px';
   }
-
-  return hyphenate(prop) + ': ' + value + ';';
+  if ((typeof value === 'string' || value instanceof String) && reOnlySpaces.test(value)) {
+    value = '"' + value + '"';
+  }
+  return '\t' + hyphenate(prop) + ': ' + value + ';';
 }
 
 function hyphenate(prop) {
